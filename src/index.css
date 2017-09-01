@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+}
+.content{
+  position: relative;
+}
+.content_width-lg{
+  margin-top: 20px;
+  max-width: 1170px;
+
+}
+.content_btn{
+  font-size: 16px;
+  color: #fff;
+  padding: 7px 10px;
+  margin-right: 10px;
+  font-weight: 100;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 5px;
+  box-shadow: none;
+}
+.content_btn:focus{
+  outline: none;
+}
+.content_btn-success{
+  background: #58B860;
+}
+.content_btn-dell {
+  background: #D7534C;
+}
+.content_form {
+  position: absolute;
+  right: 0px;
+  top:0;
+  border: 1px solid #C8C8C6;
+  border-radius: 5px;
+}
+.content_input-theme {
+  border: none;
+  height: 31px;
+  padding-left: 10px;
+  border-right: 1px solid #C8C8C6;
+}
+.content_input-theme:focus{
+  outline: none;
+}
+.content_btn-search {
+  background: none;
+  color:#6A6A69;
+}
+.recording_width-lg{
+  width: 100%;
+  margin: auto;
+  padding: 0 15px;
+  margin-top: 20px;
+}
+.recording_form{
+  border: 1px solid #C8C8C6;
+  border-radius: 5px;
+  display: flex;
+  width: 400px;
+  margin: auto;
+}
+.recording_input-theme {
+  flex-basis: 400px;
+  border: none;
+  box-shadow: none;
+  height: 31px;
+  padding-left: 10px;
+  border-right: 1px solid #C8C8C6;
+}
+.recording_input-theme:focus{
+  outline: none;
+}
+.recording_add_btn{
+  font-size: 16px;
+  padding: 7px 10px;
+  margin-right: 10px;
+  font-weight: 100;
+  text-transform: capitalize;
+  border: none;
+  box-shadow: none;
+}
+.recording_add_btn-search{
+  background: none;
+  color:#6A6A69;
+  border: none;
+}
+.recording_add_btn:focus{
+  outline: none;
+}
+.recording_list {
+  width:100%;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+.recording_list-item {
+  list-style: none;
+  width:100%;
+  border: 1px solid #E8E8E8;
+  border-radius: 5px;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+.recording_list_btn {
+  font-size: 16px;
+  color: #fff;
+  padding: 7px 10px;
+  margin-right: 10px;
+  font-weight: 100;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 5px;
+  box-shadow: none;
+}
+.recording_list_btn:focus{
+  outline: none;
+}
+.recording_list_btn-edit{
+  background: #F1AB50;
+}
+.recording_list_btn-dell{
+  background: #D7534C;
+}
+.recording_list_rec{
+  font-size: 16px;
+  display: inline-block;
+  margin: 0 10px;
+}
