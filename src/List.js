@@ -5,7 +5,6 @@ class List extends React.Component{
 
     render(){
         let searchInp = this.props.todos.search;
-        console.log(this.props.todos.search);
         return (<div>
             <ul className="recording_list">
                 {this.props.todos.list.filter((item, i) => {
