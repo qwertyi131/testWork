@@ -8,7 +8,7 @@ class List extends React.Component{
         return (<div>
             <ul className="recording_list">
                 {this.props.todos.list.filter((item, i) => {
-                    if (searchInp.length === 0 || item.text.indexOf(searchInp) >= 0){
+                    if (searchInp.length === 0 || item.text.toLocaleLowerCase().indexOf(searchInp.toLocaleLowerCase()) >= 0){
                         return true
                     }else {
                         return false
