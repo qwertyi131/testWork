@@ -5,6 +5,7 @@ import { search } from './actions';
 class Search extends React.Component {
 
 
+
     render(){
         let input
         return (<div>
@@ -15,6 +16,9 @@ class Search extends React.Component {
                               input.value = ''
                           }}>
                         <input type="search" placeholder="Serch for..." className="content_input content_input-theme"
+                               onChange={() => {
+                                   this.props.dispatch( search(input.value))
+                               }}
                                ref={node => {
                             input = node
                         }}/>
